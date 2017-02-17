@@ -8,8 +8,8 @@ class windowManager(ttk.Frame):
     def __init__(self,session,parent):
         ttk.Frame.__init__(self, parent)
         self.session = session
-        self.mono10 = tkFont.Font(family="Consolas", size=10)
-        self.mono20 = tkFont.Font(family="Consolas", size=20)
+        self.mono10 = tkFont.Font(family="PT Mono", size=10)
+        self.mono20 = tkFont.Font(family="PT Mono", size=20)
         self.blinking = False
         self.sessionsButtonsList = []
         self.root = parent
